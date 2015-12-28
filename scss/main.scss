@@ -11,11 +11,10 @@
 
   @import "base/_variables";
   @import "base/_normalize";
-  @import "base/_media-queries";
   @import "base/_defaults";
 
 
 // B L O C K S: Sections, reusable code, patterns
 // --------------------------------------------
 
-  @import "blocks/_buttons";
+  @import "blocks/_responsive-header";
