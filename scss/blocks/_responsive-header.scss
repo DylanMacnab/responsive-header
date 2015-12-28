@@ -2,9 +2,15 @@
 // Responsive Header Style
 // ***************************************************
 
-body {
+.demo_wrap {
   height: 1500px;
   background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
+
+.demo_description {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
 }
 
 .offset {
