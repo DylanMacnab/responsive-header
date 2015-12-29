@@ -19,7 +19,7 @@
   // Change Styles Based on Small Class being preset on header
   &.small {
     height: 65px;
-    box-shadow: 0 0 5px rgba(black, .2);
+    box-shadow: $base-shadow;
     .header_logo {
       left: 0;
       transform: translateX(0);
@@ -61,6 +61,7 @@
 }
 
 
+
 // Hamburger Menu
 // ---------------------------------------------------
 
@@ -89,5 +90,5 @@
   margin-bottom: 5px;
 }
 .header_burger_line-3 {
-  margin-bottom: 0px;
+  // margin-bottom: 0px;
 }
