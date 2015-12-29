@@ -1,0 +1,1 @@
+function navbarScroll(){var l=window.scrollY;l>50?$(".header").addClass("small"):50>l&&$(".header").removeClass("small")}$(document).scroll(function(){navbarScroll()});
