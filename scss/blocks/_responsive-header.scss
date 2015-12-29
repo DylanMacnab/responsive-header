@@ -30,6 +30,9 @@
     }
     .header_burger {
       display: block;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
     }
     & ~ .header_offset {
       padding-top: 240px;
@@ -59,12 +62,12 @@
 // ---------------------------------------------------
 
 .header_burger {
-  display: none;
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: -999px;
   width: 40px;
   transform: translateY(-50%);
+  transition: $base-transition;
 }
 
 [class^="header_burger_line-"] {
