@@ -10,11 +10,12 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 170px;
+  height: 500px;
+  height: 80vh;
   font-weight: bold;
   text-align: center;
-  background: gold;
-  transition: .3s;
+  background: $header-color;
+  transition: .4s;
   &.small {
     height: 70px;
     box-shadow: 0 0 5px rgba(black, .2);
@@ -26,9 +27,9 @@
 }
 
 .header_logo {
-  font-family: 'Oswald', helvetiva;
+  font-family: 'Oswald', helvetica, sans-serif;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 35vh;
   font-size: 50px;
-  transition: .3s;
+  transition: .4s;
 }
