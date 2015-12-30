@@ -1,1 +1,1 @@
-var headerScroll=function(){var l=$(".header"),e=window.scrollY;e>50?l.addClass("small"):50>e&&l.removeClass("small")};document.addEventListener("scroll",headerScroll);
+var headerScroll=function(){var e=document.getElementById("js-header"),l=window.scrollY;l>50?e.classList.add("small"):50>l&&e.classList.remove("small")};document.addEventListener("scroll",headerScroll);

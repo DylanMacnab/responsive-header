@@ -1,15 +1,17 @@
 
 var headerScroll = function() {
   // Cache header element
-  var $header = $('.header');
+  var header = document.getElementById('js-header');
   var y = window.scrollY;
 
   // Check if user has scrolled more than 50px
   if ( y > 50) {
-    $header.addClass('small');
+    header.classList.add('small');
   } else if (y < 50) {
-    $header.removeClass('small');
+    header.classList.remove('small');
   }
 };
 
 document.addEventListener('scroll', headerScroll);
+
+// Need to figure out a way to throttle scroll
