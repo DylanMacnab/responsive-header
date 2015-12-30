@@ -1,1 +1,1 @@
-function navbarScroll(){var l=$(".header"),a=window.scrollY;a>50?l.addClass("small"):50>a&&l.removeClass("small")}$(document).scroll(function(){navbarScroll()});
+var headerScroll=function(){var l=$(".header"),e=window.scrollY;e>50?l.addClass("small"):50>e&&l.removeClass("small")};document.addEventListener("scroll",headerScroll);
